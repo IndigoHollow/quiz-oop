@@ -1,0 +1,117 @@
+body {
+	background: url("http://ef-englishfirst.ru/quiz/parents1/parents-bg.png") repeat;
+}
+
+div#wrap {
+	width: 610px;
+	max-width: 658px;
+	bottom: 75px;
+	margin: 50px auto;	
+}
+
+div#block, div#result {
+	padding: 30px 50px 70px;
+	background: rgba(255, 255, 255, 0.83);
+	display: block;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+div#resultblock {
+	width: 100%;
+	margin: 50px auto;
+}
+
+div#result {
+	float: left;
+	width: 100%;
+	padding: 30px 50px 20px;
+	margin: 0 15px 0 0;
+	display: none;
+	box-sizing: border-box;
+}
+
+div#question {
+	font: normal 26px Arial;
+	margin: 10px 0 30px 0;
+}
+
+.question-button {
+	background: #b5b5b5;
+	border: medium none;
+	color: #000000;
+	font: 20px Arial;
+	padding: 10px 20px;
+	text-align: center;
+	white-space: normal;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	margin: 40px auto -25px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.question-button:hover {
+	background: #009bc2;
+	color: #fff;
+}
+
+div#next1 {
+	margin: 20px auto;
+	text-align: center;
+	padding: 10px 0 0;
+	box-sizing: border-box;
+	width: 150px;
+	height: 35px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #f8a228;
+	cursor: pointer;
+}
+
+div#next1:hover {
+	background-color: #f8a228;
+}
+
+.progress {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	height: 15px;
+	margin: 0 auto 30px;
+	width: 100%;
+}
+
+.progress-cube {
+	background: #bebebe none repeat scroll 0 0;
+	display: inline-block;
+	height: 15px;
+	margin-right: 36px;
+	width: 15px;
+}
+
+/********************RESPONSIVE***********************/
+
+@media(max-width: 650px) {
+	
+	div#wrap {
+		width: 100%;
+	}
+	
+	.progress-cube {
+		height: 15px;
+		margin-right: 10px;
+		width: 15px;
+	}
+	
+	div#question {
+		font-size: 22px;
+	}
+	
+	.question-button {
+		font-size: 18px;
+	}
+	
+}
